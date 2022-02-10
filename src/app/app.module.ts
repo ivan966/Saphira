@@ -14,7 +14,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatListModule } from '@angular/material/list';
-import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component'
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { InicioComponent } from './inicio/inicio.component'
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    SidenavListComponent
+    SidenavListComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
